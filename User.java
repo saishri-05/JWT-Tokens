@@ -1,0 +1,18 @@
+package com.jwt_example.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor  // This will generate a constructor with all fields as parameters
+@ToString
+public class User {
+    private String userId;
+    private String name;
+    private String email;
+}
